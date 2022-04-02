@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,300&family=Marvel&display=swap"
+        rel="stylesheet">
+    <title>Bistro Cafe Home</title>
+
+    <style>
+        .button {
+            font-family: 'Marvel', sans-serif;
+        }
+
+        #contactInfo {
+            font-family: 'Alegreya Sans SC', sans-serif;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+            border: 2px solid #A7AFB4;
+            padding: 15px;
+        }
+    </style>
+
+</head>
+<!-- Taj-Hakeem Ryles
+     bistro cafe
+     INFO 1311 WA
+     olberding
+     May 19, 2021
+-->
+
+<body>
+    <div class="wrapper debug">
+        <header>
+            <h1>The<br>Bistro<br>Cafe</h1>
+            <img id="bannerIMG" src="projectMedia/theBistroCafeLogo.png" alt="The Bistro Cafe Logo image">
+        </header>
+
+        <nav>
+            <ul>
+                <li class="debug navMenuLi"><a href="home.html">Home</a></li>
+                <li class="debug navMenuLi"><a href="specials.html">Special</a></li>
+                <li class="debug navMenuLi"><a href="history.html">History</a></li>
+                <li class="debug navMenuLi"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <form action="post" data-netlify="true" id="formMain">
+                <input type="hidden" name="Class Final Project" value="INFO1311 Final Project Taj-hakeem Ryles">
+                <!-- <input type="hidden" name="recipient" value="teryles@mail.mccneb.edu"> -->
+                <input type="hidden" name="recipient" value="LOlberding@mccneb.edu">
+                <input type="hidden" name="redirect"
+                    value="http://student.mccinfo.net/~teryles/project/redirectPage.html">
+                <fieldset id="contactInfo">
+
+                    <legend>Contact Information</legend>
+                    <label for="firstName">First Name:*</label>
+                    <br>
+                    <input type="text" id="firstName" name="First Name" required>
+                    <br><br>
+
+                    <label for="lastName">Last Name:*</label>
+                    <br>
+                    <input type="text" id="lastName" name="Last Name" required>
+                    <br><br>
+
+                    <label for="phone">Phone Number:*</label>
+                    <br>
+                    <input type="tel" id="phone" name="Phone" required>
+                    <br><br>
+
+                    <label for="email">Email:*</label>
+                    <br>
+                    <input type="text" id="email" name="Email" required>
+                    <br>
+
+                    <div id="userComments">
+                        <label for="comments">Questions or comments?</label><br>
+                        <textarea id="comments" name="Comments" rows="10" cols="50">
+                        </textarea>
+                    </div>
+
+                    <br>
+
+                    <fieldset id="contactMethod">
+                        <legend>Prefered Method of Contact *</legend>
+                        <div>
+                            <input type="radio" name="Contact Method" value="Phone" id="radioBTNphone">
+                            <label for="radioBTNphone">Phone</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="Contact Method" value="Email" id="radioBTNEmail">
+                            <label for="radioBTNEmail">Email</label>
+                        </div>
+                    </fieldset>
+
+                    <p>* required fields</p>
+                    <button class="button" id="submitForm">Submit</button>
+                    &nbsp;
+                    &nbsp;
+                    <button class="button" id="restForm">Reset</button>
+                    <div data-netlify-recaptcha="true"></div>
+                </fieldset>
+
+
+
+            </form>
+        </main>
+
+        <footer>
+            <ul>
+                <li class="debug navFooterLi"><a href="home.html">Home</a></li>
+                <li class="debug navFooterLi"><a href="specials.html">Special</a></li>
+                <li class="debug navFooterLi"><a href="history.html">History</a></li>
+                <li class="debug navFooterLi"><a href="contact.html">Contact</a></li>
+            </ul>
+            <p>&#169; &nbsp;<a href="mailto:teryles@mail.mccneb.edu">Taj-Hakeem Ryles</a></p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

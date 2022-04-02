@@ -1,0 +1,150 @@
+ /* Taj-Hakeem Ryles
+     bistro cafe
+     INFO 1311 WA
+     olberding
+     May 19, 2021 */
+
+/* .debug {
+    border: 1px solid black;
+} */
+
+.wrapper {
+    border-radius: 15px;
+    border: 2px solid #DEE1E3;
+    box-shadow: 5px 5px 7px #869198;
+    width: 95%;
+    margin: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #630427;
+}
+
+a:hover {
+    color: #062447;
+}
+
+.mainIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#bannerIMG {
+    padding-top: 10px;
+    width: 85%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#historyIMG {
+    width: 310px;
+}
+
+#homeIMG {
+    width: 300px;
+}
+
+h1 {
+    display: none;
+}
+
+p {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navMenuLi {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    list-style: none;
+    color: #630427;
+}
+
+footer ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navFooterLi {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 7px;
+    font-weight: bold;
+    list-style: none;
+}
+
+footer p {
+    font-family: 'Marvel', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+p.pageInfo {
+    font-family: 'Marvel', sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26em
+}
+
+/*Desktop layout*/
+@media (min-width: 800px) {
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+    #bannerIMG {
+        width: 65%;
+    }
+
+    .navMenuLi {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        display: inline-block;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .navFooterLi {
+        font-family: 'Alegreya Sans SC', sans-serif;
+        display: inline-block;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    p.pageInfo {
+        font-size: 1.75em;
+    }
+
+    .navMenuLi {
+    font-size: 27px;
+    }
+}
+
+@media (min-width: 1200px) {
+    img {
+        width: 60%;
+    }
+
+    p.pageInfo {
+        font-size: 2em;
+    }
+
+}
